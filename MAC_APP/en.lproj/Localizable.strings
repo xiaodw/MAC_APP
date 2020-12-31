@@ -1,0 +1,101 @@
+/* 
+  Localizable.strings
+  MAC_APP
+
+  Created by Jony on 2020/12/29.
+  
+*/
+
+"GLOBAL_FONT_20_NAME" = "PingFangSC-Light";
+"GLOBAL_FONT_20_SIZE" = "20";
+"GLOBAL_FONT_18_NAME" = "PingFangSC-Light";
+"GLOBAL_FONT_18_SIZE" = "18";
+"GLOBAL_FONT_18R_NAME" = "PingFangSC-Regular";
+"GLOBAL_FONT_18R_SIZE" = "18";
+"GLOBAL_FONT_16_NAME" = "PingFangSC-Light";
+"GLOBAL_FONT_16_SIZE" = "16";
+"GLOBAL_FONT_16R_NAME" = "PingFangSC-Regular";
+"GLOBAL_FONT_16R_SIZE" = "16";
+"GLOBAL_FONT_14_NAME" = "PingFangSC-Light";
+"GLOBAL_FONT_14_SIZE" = "14";
+"GLOBAL_FONT_14T_NAME" = "PingFangSC-Thin";
+"GLOBAL_FONT_14T_SIZE" = "14";
+
+"GLOBAL_APP_LANGUAGE" = "us";
+
+"WINDOW_TITLE_DISCOVER_MELODY" = "DiscoverMelody";
+"WINDOW_TITLE_EDU" = "Education";
+"WINDOW_TITLE_DESIGN" = "WE DESIGN";
+
+"SELECT_DEVICE_VIEW_LABEL_TITLE" = "Device Selection";
+"SELECT_DEVICE_VIEW_LABEL_MICROPHONE" = "Microphone:";
+"SELECT_DEVICE_VIEW_LABEL_SPEAKER" = "Speaker:";
+"SELECT_DEVICE_VIEW_LABEL_CAMERA" = "Camera:";
+"SELECT_DEVICE_VIEW_BUTTON_CONFIRM" = "Confirm";
+
+"VIDEO_MUTE_BUTTON_TITLE" = " Mute ";
+"VIDEO_UNMUTE_BUTTON_TITLE" = "Unmute";
+"VIDEO_OPEN_VIEW_TITLE" = "ON ";
+"VIDEO_DISABLE_VIEW_TITLE" = "OFF";
+"VIDEO_LAYOUT_VIEW_TITLE" = "Layout";
+"VIDEO_SHARE_VIEW_TITLE" = " Share ";
+"VIDEO_STOP_SHARE_SCREEN_TITLE" = "UnShare";
+"VIDEO_VOLUME_VIEW_TITLE" = "Volume";
+"VIDEO_SHUT_REMOTE_VIEW_TITLE" = "Close";// "关闭对方";
+"VIDEO_OPEN_REMOTE_VIEW_TITLE" =  "Open ";//"打开对方";
+"CLOSE_ClASS_BUTTON_TITLE" = "End";
+"CLASS_DOING_TIME_TITLE" = "start in %zd min  ";//"距开课%zd分钟      ";
+"CLASS_END_TIME_TITLE" = "finish in %zd min ";//距结束%zd分钟      ";
+
+"DEVICE_SELECTOR_LABEL_TEXT_ALIGNMENT" = "0";
+"DEVICE_SELECTOR_LABEL_WIDTH" = "80";
+"DEVICE_SELECTOR_SPLITLINE_OFFSET" = "100";
+"DEVICE_SELECTOR_POPUPBUTTON_LEFT_OFFSET" = "106";
+
+"LOGIN_VIEW_LOGO_IMG_NAME_DISCOVER_MELODY" = "Login_logo_en_icon";
+"LOGIN_VIEW_LOGO_IMG_WIDTH" = "448";
+"LOGIN_VIEW_LOGO_IMG_HEIGHT" = "128";
+"LOGIN_VIEW_LOGO_OFFSET_ABOVE_CODE_TEXT_FIELD" = "54";
+
+"LOGIN_VIEW_TEXT_FIELD_CODE_PLACEHOLDER" = "Please input lesson code";
+"LOGIN_VIEW_TEXT_FIELD_CODE_WIDTH" = "300";
+"LOGIN_VIEW_MICROPHONE_SELECTOR_LABLE" = "Microphone";
+"LOGIN_VIEW_CAMERA_SELECTOR_LABLE" = "Camera";
+"LOGIN_VIEW_VERSION_PREFIX" = "Version %@";
+
+"SETTING_VIEW_CAMERA_SELECTOR_LABLE" = "Camera";
+"SETTING_VIEW_MICROPHONE_SELECTOR_LABLE" = "Microphone";
+"SETTING_VIEW_MIRROR_MODE_SELECTOR_LABLE" = "Video MirrorMode";
+"SETTING_VIEW_VOLUME_SELECTOR_LABLE" = "Volueme";
+"SETTING_VIEW_MIRROR_MODE_ENABLE" = "Enable";
+"SETTING_VIEW_MIRROR_MODE_DISABLE" = "Disable";
+"SETTING_VIEW_BUTTON_CONFIRM" = "Close";
+
+"LOGIN_VIEW_BUTTON_JOIN" = "Join";
+"VIDEO_VIEW_COUNT_DOWN_CLOCK_NOTICE" = "Your session will start in %zd minutes";
+"VIDEO_VIEW_COUNTDOWN_NOTICE" = "%.2d:%.2d:%.2d Your session will be disconnected in %d minutes";
+"VIDEO_VIEW_RECORD_STATUS" = "Recording";
+"LOGIN_VIEW_BUTTON_JOIN_CLASS" = "Start";
+
+"ALERT_BUTTON_OK" = "Confirm";
+"ALERT_BUTTON_CANCEL" = "Cancel";
+"ALERT_TITLE_ERROR" = "Error";
+"ALERT_EXIT_LIVE_ROOM" = "Are you sure you want to end the session?";
+"ALERT_LIVE_AUTO_CLOSE" = "After confirmation, your session will be disconnected";
+"ALERT_UPDATE_TITLE" = "New Version Available";
+"ALERT_START_SHARE_SCREEN_TITLE" = "Share Screen";
+"ALERT_START_SHARE_SCREEN_MSG" = "Do you want to share your screen?";
+"ALERT_STOP_SHARE_SCREEN_TITLE" = "Stop Sharing Screen";
+"ALERT_STOP_SHARE_SCREEN_MSG" = "Do you want to stop sharing screen?";
+"OVERLAY_MSG_FONT_SIZE" = "16";
+"OVERLAY_MAX_WIDTH" = "400";
+"OVERLAY_MAX_HEIGHT" = "400";
+"OVERLAY_MSG_UNKOWN_REASON" = "Unknown error";
+"OVERLAY_MSG_UNEXPECTED_DATA" = "Unexpected data";
+"OVERLAY_MSG_NETWORK_QUALITY_DISSATISFY" = "Network unstable, unable to proceed to lesson";
+
+"TOAST_MSG_BAD_NETWORK_QUALITY_OF_LOCAL" = "Local network unstable";
+"TOAST_MSG_BAD_NETWORK_QUALITY_OF_STUDENT" = "Student' network unstable";
+"TOAST_MSG_BAD_NETWORK_QUALITY_OF_TEACHER" = "Teacher' network unstable";
+"TOAST_MSG_BAD_NETWORK_QUALITY_OF_ASSISTANT" = "Assistant' network unstable";
+"TOAST_MSG_TEST_NETWORK_QUALITY" = "Network testing,please wait...";

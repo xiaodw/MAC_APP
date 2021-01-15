@@ -31,5 +31,9 @@
 	<string>Main</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>为了您可以正常视频上课，请允许开启麦克风权限</string>
+	<key>NSCameraUsageDescription</key>
+	<string>为了您可以正常视频上课，请允许开启摄像头权限</string>
 </dict>
 </plist>

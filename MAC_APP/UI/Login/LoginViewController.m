@@ -11,7 +11,7 @@
 #import "MacApp.h"
 #import "AppDelegate.h"
 
-@interface LoginViewController ()
+@interface LoginViewController () <AgoraRtcEngineDelegate>
 @property (strong,nonatomic)NSImageView* imageViewBackgroud;
 @property (strong,nonatomic)NSImageView* imageViewLogo;
 @property (strong,nonatomic)LessonCodeField* lessonCodeField;
@@ -30,6 +30,8 @@
     [self layoutSubviews];
     [self setLoginStatus:LOGIN_STATUS_NOT_READY];
     [self requestPcConfig];
+    
+    [_lessonCodeField.textFieldCode setStringValue:@"bb103edaf19d1a8a"];
 }
 
 -(void)setupSubviews {
@@ -202,6 +204,9 @@
         [self.buttonJoin setEnabled:NO];
         [self.lessonCodeField.textFieldCode setEnabled:NO];
     } else if (LOGIN_STATUS_WAIT_LESSON_CODE == status) {
+        LOG([AppData sharedInstance].appConfig.agoraAppId);
+        [AppData sharedInstance].agoraKit = [AgoraRtcEngineKit sharedEngineWithAppId:[AppData sharedInstance].appConfig.agoraAppId delegate:nil];
+        
         [self.loadingAnimater stopAnimation:self];
         [self.buttonJoin setEnabled:YES];
         [self.lessonCodeField.textFieldCode setEnabled:YES];
@@ -291,18 +296,15 @@
         NSLog(@"%d", [AppData sharedInstance].meetingConfig.assistant_id);
         LOG([AppData sharedInstance].meetingConfig.channel_name);
         LOG([AppData sharedInstance].meetingConfig.easemob_app_key);
-//        NSLog(@"%d", [AppData sharedInstance].loginResult.config.audio_profile);
-//        NSLog(@"%d", [AppData sharedInstance].loginResult.config.audio_scenario);
-//        NSLog(@"%d", [AppData sharedInstance].loginResult.config.play_volume);
-//        NSLog(@"%d", [AppData sharedInstance].loginResult.config.record_volume);
         
-        //[self reportAction:[AppData sharedInstance].loginResult.meeting_id Action:@"enter" TargetUId:[AppData sharedInstance].meetingConfig.teacher_id UploadUId:TargetUId:[AppData sharedInstance].meetingConfig.teacher_id];
         [self reportAction:[AppData sharedInstance].loginResult.meeting_id
                     Action:@"enter"
                  TargetUId:[AppData sharedInstance].meetingConfig.teacher_id
                  UploadUId:[AppData sharedInstance].meetingConfig.teacher_id];
         
         [self setLoginStatus:LOGIN_STATUS_DONE];
+        
+        [APP_DELEGATE showClassRoomView];
     } failure:^(NSError * _Nonnull error) {
         LOG(error.localizedDescription);
         [self setLoginStatus:LOGIN_STATUS_DONE];

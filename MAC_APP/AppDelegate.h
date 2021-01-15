@@ -9,6 +9,7 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 @property (strong,nonatomic)NSWindow* window;
--(void)showSmallClassView;
+-(void)showLoginView;
+-(void)showClassRoomView;
 @end
 

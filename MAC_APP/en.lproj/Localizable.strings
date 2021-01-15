@@ -33,17 +33,20 @@
 "SELECT_DEVICE_VIEW_LABEL_CAMERA" = "Camera:";
 "SELECT_DEVICE_VIEW_BUTTON_CONFIRM" = "Confirm";
 
-"VIDEO_MUTE_BUTTON_TITLE" = " Mute ";
-"VIDEO_UNMUTE_BUTTON_TITLE" = "Unmute";
-"VIDEO_OPEN_VIEW_TITLE" = "ON ";
-"VIDEO_DISABLE_VIEW_TITLE" = "OFF";
-"VIDEO_LAYOUT_VIEW_TITLE" = "Layout";
-"VIDEO_SHARE_VIEW_TITLE" = " Share ";
-"VIDEO_STOP_SHARE_SCREEN_TITLE" = "UnShare";
-"VIDEO_VOLUME_VIEW_TITLE" = "Volume";
-"VIDEO_SHUT_REMOTE_VIEW_TITLE" = "Close";// "关闭对方";
-"VIDEO_OPEN_REMOTE_VIEW_TITLE" =  "Open ";//"打开对方";
-"CLOSE_ClASS_BUTTON_TITLE" = "End";
+"CB_LOCAL_AUDIO_DISABLED" = " Mute ";
+"CB_LOCAL_AUDIO_ENABLED" = "Unmute";
+"CB_LOCAL_VIDEO_ENABLE" = "ON ";
+"CB_LOCAL_VIDEO_DISABLE" = "OFF";
+"CB_ALL_AUDIO_DISABLE" = "Mute All";
+"CB_ALL_AUDIO_ENABLE" = "Unmute All";
+"CB_LAYOUT" = "Layout";
+"CB_SCREEN_SHARE_ENABLE" = " Share ";
+"CB_SCREEN_SHARE_DISABLE" = "UnShare";
+"CB_VOLUME" = "Volume";
+"CB_REMOTE_VIDEO_DISABLE" = "Close";// "关闭对方";
+"CB_REMOTE_VIDEO_ENABLE" =  "Open ";//"打开对方";
+"CB_LEAVE_CLASS" = "End";
+"CB_SCREEN_NOTE" = "Note";
 "CLASS_DOING_TIME_TITLE" = "start in %zd min  ";//"距开课%zd分钟      ";
 "CLASS_END_TIME_TITLE" = "finish in %zd min ";//距结束%zd分钟      ";
 
